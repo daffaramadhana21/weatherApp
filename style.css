@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #06283d;
+    background: #06283d;
   }
   
   .container {
@@ -19,7 +19,7 @@
     width: 400px;
     height: 105px;
     background: #fff;
-    padding: 28px, 32px;
+    padding: 28px 32px;
     overflow: hidden;
     border-radius: 18px;
     font-family: "Roboto", sans-serif;
@@ -55,7 +55,7 @@
     width: 50px;
     height: 50px;
     color: #06283d;
-    background-color: #dff6ff;
+    background: #dff6ff;
     border-radius: 50%;
     font-size: 22px;
     transition: 0.4s ease;
@@ -110,7 +110,8 @@
     margin-top: 30px;
   }
   
-  .weather-details .humidity, .weather-details .wind {
+  .weather-details .humidity,
+  .weather-details .wind {
     display: flex;
     align-items: center;
     width: 50%;
@@ -166,7 +167,8 @@
     margin-top: 12px;
   }
   
-  .weather-box, .weather-details{
+  .weather-box,
+  .weather-details {
     scale: 0;
     opacity: 0;
   }
@@ -182,3 +184,4 @@
       opacity: 1;
     }
   }
+  
